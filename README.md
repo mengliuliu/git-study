@@ -78,5 +78,5 @@
 ## ssh 方式上传代码
 - 公钥 私钥，两者之间是有关联的
 - 生成公钥，和私钥
-    + `ssh-keygen -t rsa -C "171626037@qq.com`
-    
+    + `ssh-keygen -t rsa -C "171626037@qq.com"`
+
