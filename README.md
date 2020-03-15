@@ -80,3 +80,7 @@
 - 生成公钥，和私钥
     + `ssh-keygen -t rsa -C "171626037@qq.com"`
 
+## 在push和pull操作
+- 先pull，再push
+- 当我们在push时，加上-u参数，那么在下一次push时，我们只需要写上`git push`就能上传我们的代码
+- （加上-u之后，git会把当前分支与远程的指定的分支进行关联。git push origin master）
